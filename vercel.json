@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/other",
-      "destination": "https://nextjs-multizone-one-ipsl.vercel.app/"
+      "destination": "https://nextjs-multizone-two.vercel.app/other"
     },
     {
       "source": "/other/:match",
-      "destination": "https://nextjs-multizone-one-ipsl.vercel.app/:match"
+      "destination": "https://nextjs-multizone-two.vercel.app/other/:match"
     },
     { "source": "/", "destination": "https://nextjs-multizone-one.vercel.app" },
     {
