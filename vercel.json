@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/other",
+      "destination": "https://nextjs-multizone-one-ipsl.vercel.app/"
+    },
+    {
+      "source": "/other/:match",
+      "destination": "https://nextjs-multizone-one-ipsl.vercel.app/:match"
+    },
+    { "source": "/", "destination": "https://nextjs-multizone-one.vercel.app" },
+    {
+      "source": "/:match",
+      "destination": "https://nextjs-multizone-one.vercel.app/:match"
+    }
+  ]
+}
