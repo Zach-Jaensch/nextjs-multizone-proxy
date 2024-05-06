@@ -5,13 +5,13 @@
       "destination": "https://nextjs-multizone-two.vercel.app/other"
     },
     {
-      "source": "/other/:match",
-      "destination": "https://nextjs-multizone-two.vercel.app/other/:match"
+      "source": "/other/:match*",
+      "destination": "https://nextjs-multizone-two.vercel.app/other/:match*"
     },
     { "source": "/", "destination": "https://nextjs-multizone-one.vercel.app" },
     {
-      "source": "/:match",
-      "destination": "https://nextjs-multizone-one.vercel.app/:match"
+      "source": "/:match*",
+      "destination": "https://nextjs-multizone-one.vercel.app/:match*"
     }
   ]
 }
